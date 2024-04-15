@@ -1,0 +1,30 @@
+Move Contents
+------------------------------------------------------------
+
+# 1. Apply computer basic operation
+
+## import,export, convert data files and computer to network
+## App printer setting and connect computer to network
+
+# 2. Create Productive Working Environment
+
+## Assign responsabilities
+## maintain good relationship with customers
+
+# 3. Create database
+
+## Proper creation of tables and attributes
+## Proper creation of Views
+## Proper management of access control of database
+
+#4. CRUD both Mysql and PHP 
+
+# 5. Perform NodeJs In Backend- Application using Mysql
+## Develop  RESTFUL API
+## Proper Connection, Access and secure backend Application
+## correct implementation of CRUD 
+## Test Backend Application
+## proper Management of dynamic forms to manage backend Application
+------------------------------------------------------
+
+requ
