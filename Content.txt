@@ -27,4 +27,10 @@ Move Contents
 ## proper Management of dynamic forms to manage backend Application
 ------------------------------------------------------
 
-requ
+required applications
+
+0. Browser
+ . Text-Editor
+1. XAMPP
+2. NodeJs
+3.
