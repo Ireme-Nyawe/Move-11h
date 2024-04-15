@@ -33,4 +33,4 @@ required applications
  . Text-Editor
 1. XAMPP
 2. NodeJs
-3.
+3. Computer
