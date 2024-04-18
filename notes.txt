@@ -74,7 +74,7 @@ Database users
 Grant permission:
 
 GRANT ALL PRIVILEGES ON 
-database_name.* TO 'username'@'localhost';
+*.* TO 'username'@'localhost';
 
 GRANT SELECT ON database_name.* 
 TO 'username'@'localhost';
