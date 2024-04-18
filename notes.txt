@@ -1,0 +1,71 @@
+CREATE TABLE table_name (
+    column1 datatype constraint,
+    column2 datatype constraint,
+    column3 datatype constraint,
+    ....
+);
+---------------------------------------------------
+
+NOT NULL - Ensures that a column cannot have a NULL value
+UNIQUE - Ensures that all values in a column are different
+PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+FOREIGN KEY - Prevents actions that would destroy links between tablesDEFAULT - Sets a default value for a column if no value is specified
+CREATE INDEX - Used to create and retrieve data from the database very quickly
+
+-------------------
+MySQL CREATE VIEW Statement
+
+In SQL, a view is a virtual table based on 
+the result-set of an SQL statement.
+
+A view contains rows and columns, just like
+ a real table. The fields in a view are fields
+  from one or more real tables in the database.
+
+You can add SQL statements and functions 
+to a view and present the data as if the data 
+were coming from one single table.
+
+CREATE VIEW view_name AS
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
+select view:
+SELECT * FROM [view_name];
+
+
+
+
+---------------------------------
+FOREIGN KEY Creation:
+
+alter table Child_table_name add
+ constraint constraint_Name 
+ foreign key(Column_Name_Child_Table) 
+ references Parent_table_name(Primary_key_Parent_Table);
+
+alter table Child_table_name add 
+ foreign key(Column_Name_Child_Table) 
+ references Parent_table_name(Primary_key_Parent_Table);
+ --------------------------------
+
+ what is i see, I remember,
+
+ what i hear, I forget,
+
+ what i do , I understand.
+
+ Syntax for foreign key:
+
+ ALTER table Child_table_name
+
+
+ 
+ 
+
+ 
+
+
+
+
