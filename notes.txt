@@ -65,6 +65,37 @@ alter table Child_table_name add
  
 
  
+Database users
+ ------------------------------
+ create users:
+ CREATE USER 'username'@'localhost' 
+ IDENTIFIED BY 'password';
+
+Grant permission:
+
+GRANT ALL PRIVILEGES ON 
+database_name.* TO 'username'@'localhost';
+
+GRANT SELECT ON database_name.* 
+TO 'username'@'localhost';
+
+GRANT SELECT ON database_name.* 
+TO 'username'@'localhost';
+
+View Permission:
+SHOW GRANTS FOR 'username'@'localhost';
+
+
+Drop User:
+DROP USER 'username'@'localhost';
+
+Remove privilleges:
+
+REVOKE ALL PRIVILEGES ON database_name.* 
+FROM 'username'@'localhost';
+
+REVOKE SELECT ON database_name.* 
+FROM 'username'@'localhost';
 
 
 
