@@ -148,8 +148,12 @@ select count(Employees.DepartmentID) as "Number In Dep",Departments.DepartmentNa
 
 4. Retrieve the average salary of employees 
 in each department:
+select avg(salary) as 'average salary',Departments.DepartmentName from Employees,Departments where Employees.DepartmentID=Departments.DepartmentID group by Employees.DepartmentID;
+
 5. Retrieve the highest salary among all
  employees:
+ select max(salary) as "Highest Salary" from Employees;
+
 ------------------------------------------------------------------------
 
 
