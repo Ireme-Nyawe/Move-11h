@@ -33,7 +33,8 @@
             <td><?php echo $trainees['email']?></td>
             <td><?php echo $trainees['school']?></td>
             <td>
-                <a href="delete_trainee.php?trainee_id=<?php echo $trainees['id']?>">delete</a> update 
+                <a href="delete_trainee.php?trainee_id=<?php echo $trainees['id']?>">delete</a>
+                <a href="update.php?id=<?php echo $trainees['id']?>">update </a>
             </td>
            </tr>
            <?php 
